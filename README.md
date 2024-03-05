@@ -33,7 +33,8 @@ __Steps:__
    from the data collected in (1) and (2).
    
 4. Process the data:
-     a) Make sure that all the products have consistent IDs starting with letter 'P', as some have subproduct IDs that are numeric.
+
+    a) Make sure that all the products have consistent IDs starting with letter 'P', as some have subproduct IDs that are numeric.
         For example, the product "Lip Butter Balm for Hydration & Shine" have such subroducts as "Lip Butter Balm for Hydration & Shine Birthday Cake",
         "Lip Butter Balm for Hydration & Shine Vanilla Beige", "Lip Butter Balm for Hydration & Shine Brown Sugar" etc.
         Use regex to assign main product IDs to all the subproducts.
