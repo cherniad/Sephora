@@ -7,7 +7,7 @@ url = "https://sephora.p.rapidapi.com/us/products/v2/list"
 # 60 bestsellers from the Skincare category
 querystring = {"categoryId":"cat150006","pageSize":"60","currentPage":"1","sortBy":"P_BEST_SELLING:1"} 
 headers = {
-    "X-RapidAPI-Key": "ca26155aeemshc91293b842eea14p1488c3jsn69f7b43ca65c",
+    "X-RapidAPI-Key": "api_key.txt",
     "X-RapidAPI-Host": "sephora.p.rapidapi.com"
 }
 response = requests.get(url, headers=headers, params=querystring)
